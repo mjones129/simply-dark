@@ -1,0 +1,129 @@
+:root {
+    --golden:rgb(240, 189, 23);
+    --black: #3b3b3b;
+    --white: white;
+    --dark-grey: #222;
+    --grey: #525252;
+}
+/* background color */
+body.wp-admin {
+    background-color: var(--black);
+}
+/* dashboard heading */
+#wpbody-content > div.wrap > h1 {
+    color: var(--white);
+}
+/* link tags */
+#wpbody-content > div.wrap > ul > li.all > a {
+    color: var(--golden);
+}
+/* table backgrounds */
+#the-list tr {
+    background-color: var(--grey);
+}
+/* table header */
+#posts-filter > table > thead > tr {
+    background-color: var(--dark-grey);
+}
+#author, #categories, #tags {
+    color: var(--white);
+}
+#posts-filter > div.tablenav.top > div.tablenav-pages.one-page > span.displaying-num {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > ul > li.publish > a > span {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > ul > li.all > a > span {
+    color: var(--white);
+}
+/* table footer */
+#posts-filter > table > tfoot > tr {
+    background-color: var(--dark-grey);
+}
+#posts-filter > table > tfoot > tr th {
+    color: var(--white);
+}
+/* row title */
+#post-1 > td.title.column-title.has-row-actions.column-primary.page-title > strong > a {
+    color: var(--golden);
+}
+/* all anchor tags */
+a {
+    color: var(--golden);
+}
+/* media library */
+#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.attachments-wrapper > div > p {
+    color: var(--white);
+}
+#drag-drop-area > div > p.drag-drop-info {
+    color: var(--white);
+}
+p.upload-flash-bypass {
+    color: var(--white);
+}
+p.max-upload-size {
+    color: var(--white);
+}
+#drag-drop-area > div > p:nth-child(2) {
+    color: var(--white);
+}
+#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.media-toolbar.wp-filter {
+    background-color: var(--dark-grey);
+}
+#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.media-toolbar.wp-filter > div.media-toolbar-primary.search-form > label {
+    color: var(--white);
+}
+/* categories */
+#col-left > div > div > h2 {
+    color: var(--white);
+}
+#addtag > div.form-field.form-required.term-name-wrap > label {
+    color: var(--white);
+}
+#addtag > div.form-field.term-slug-wrap > label {
+    color: var(--white);
+}
+#addtag > div.form-field.term-parent-wrap > label {
+    color: var(--white);
+}
+#addtag > div.form-field.term-description-wrap > label {
+    color: var(--white);
+}
+/* comments */
+#comments-form > table > thead > tr {
+    background-color: var(--dark-grey);
+}
+#comment {
+    color: var(--white);
+}
+#the-comment-list tr {
+    background-color: var(--black);
+}
+#the-comment-list tr td p {
+    color: var(--white);
+}
+#comments-form > table > tfoot tr {
+    background-color: var(--dark-grey);
+}
+#comments-form > table > tfoot > tr > th.manage-column.column-comment.column-primary {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > ul > li.mine > a > span {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > ul > li.moderated > a > span {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > ul > li.approved > a > span {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > ul > li.spam > a > span {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > ul > li.trash > a > span {
+    color: var(--white);
+}
+#comment-1 > td.author.column-author > strong {
+    color: var(--white);
+}
