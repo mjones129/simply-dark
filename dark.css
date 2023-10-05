@@ -127,3 +127,7 @@ p.max-upload-size {
 #comment-1 > td.author.column-author > strong {
     color: var(--white);
 }
+/* appearance page */
+#wpbody-content > div.wrap > div.theme-browser.rendered > div > div.theme.add-new-theme > a > h2 {
+    color: var(--white);
+}
