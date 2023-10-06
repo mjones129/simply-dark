@@ -1,6 +1,6 @@
 :root {
     --golden:rgb(240, 189, 23);
-    --black: #3b3b3b;
+    --black: #2f2f2f;
     --white: white;
     --dark-grey: #222;
     --grey: #525252;
@@ -130,4 +130,23 @@ p.max-upload-size {
 /* appearance page */
 #wpbody-content > div.wrap > div.theme-browser.rendered > div > div.theme.add-new-theme > a > h2 {
     color: var(--white);
+}
+/* site health */
+#dashboard_site_health {
+    background-color: var(--dark-grey);
+}
+#dashboard_site_health > div.inside > div > div.site-health-details p {
+    color: var(--white);
+}
+#dashboard_site_health > div.inside > div > div.health-check-widget-title-section.site-health-progress-wrapper.hide-if-no-js.green > div.site-health-progress-label {
+    color: var(--white);
+}
+#dashboard_site_health > div.postbox-header {
+    background-color: var(--grey);
+}
+#dashboard_site_health > div.postbox-header > h2 {
+    color: var(--white);
+}
+#dashboard_site_health > div.postbox-header > div > button.handle-order-higher > span.order-higher-indicator {
+    color: var(--golden);
 }
