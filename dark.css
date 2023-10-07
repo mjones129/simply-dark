@@ -134,7 +134,7 @@ p.max-upload-size {
 }
 /* site health */
 #dashboard_site_health {
-    background-color: var(--dark-grey);
+    background-color: var(--black);
     border-radius: var(--border-radius);
     border: 1px solid var(--golden);
 }
@@ -200,6 +200,9 @@ p.max-upload-size {
     border-radius: var(--border-radius);
     border: 1px solid var(--golden);
 }
+#dashboard_right_now > div.inside {
+    background-color: var(--black);
+}
 #dashboard_right_now > div.postbox-header {
     background-color: var(--grey);
     border-radius: var(--border-radius) var(--border-radius) 0px 0px;
@@ -213,4 +216,123 @@ p.max-upload-size {
 }
 #wp-version {
     color: var(--white);
+}
+/* activity */
+#dashboard_activity {
+    background-color: var(--black);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--golden);
+}
+#dashboard_activity > div.postbox-header {
+    background-color: var(--grey);
+    border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+    border-bottom: 1px solid var(--golden);
+}
+#dashboard_activity > div.postbox-header > h2 {
+    color: var(--white);
+}
+#dashboard_activity > div.postbox-header > div > button.handle-order-higher > span.order-higher-indicator {
+    color: var(--golden);
+}
+#published-posts > h3 {
+    color: var(--white);
+}
+#published-posts > ul > li:nth-child(odd) {
+    background-color: var(--grey);
+}
+#published-posts > ul > li:nth-child(even) {
+    background-color: var(--dark-grey);
+}
+#published-posts > ul > li > span {
+    color: var(--white);
+}
+#latest-comments > h3 {
+    color: var(--white);
+}
+#activity-widget #the-comment-list li:nth-child(odd) {
+    background-color: var(--grey);
+}
+#activity-widget #the-comment-list li:nth-child(even) {
+    background-color: var(--dark-grey);
+}
+#activity-widget #the-comment-list blockquote, #activity-widget #the-comment-list p.comment-meta {
+    color: var(--white);
+}
+#latest-comments > ul.subsubsub > li > a > span.count {
+    color: var(--white);
+}
+#published-posts {
+    border-bottom: 1px solid var(--golden);
+}
+#latest-comments > ul.subsubsub {
+    border-top: 1px solid var(--golden)
+}
+/* wp events and news */
+#dashboard_primary {
+    background-color: var(--black);
+    border: 1px solid var(--golden);
+    border-radius: var(--border-radius);
+}
+#dashboard_primary > div.postbox-header {
+    background-color: var(--grey);
+    border-bottom: 1px solid var(--golden);
+    border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+#dashboard_primary > div.postbox-header > div > button.handle-order-higher > span.order-higher-indicator {
+    color: var(--golden);
+}
+#dashboard_primary > div.postbox-header > h2 {
+    color: var(--white);
+}
+#community-events-location-message {
+    color: var(--white);
+}
+#community-events > div > p > button > span.dashicons.dashicons-location {
+    color: var(--golden);
+}
+#community-events > div > p > button > span.community-events-location-edit {
+    color: var(--golden);
+}
+#community-events > div > form > label {
+    color: var(--white);
+}
+#community-events-submit {
+    background-color: var(--golden);
+    border: none;
+    color: var(--black);
+    border-radius: 3px;
+}
+#community-events > div > form > button {
+    color: var(--golden);
+}
+#community-events > div {
+    border-bottom: 1px solid var(--golden);
+}
+#community-events > ul {
+    border-bottom: 1px solid var(--golden);
+}
+#community-events-location {
+    background-color: var(--grey);
+}
+#dashboard_primary > div.inside > p {
+    border-top: 1px solid var(--golden);
+}
+/* wordpress updates */
+#wpbody-content > div.wrap > p {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > h2.wp-current-version {
+    color: var(--white);
+}
+#wpbody-content > div.wrap > h2.response {
+    color: var(--white);
+}
+#upgrade {
+    background-color: var(--golden);
+    border: none;
+    color: var(--black);
+    border-radius: 3px;
+}
+#wpbody-content > div.wrap > h2 {
+    color: var(--white)
 }
