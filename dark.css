@@ -336,3 +336,8 @@ p.max-upload-size {
 #wpbody-content > div.wrap > h2 {
     color: var(--white)
 }
+/* plugin activation message */
+#message {
+    background-color: var(--dark-grey);
+    color: white;
+}
