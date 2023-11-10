@@ -341,3 +341,9 @@ p.max-upload-size {
     background-color: var(--dark-grey);
     color: white;
 }
+.plugins tr {
+    background-color: var(--grey);
+}
+.widefat thead tr th, .widefat tfoot tr th {
+    color: var(--white);
+}
