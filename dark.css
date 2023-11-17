@@ -340,6 +340,7 @@ p.max-upload-size {
 #message {
     background-color: var(--dark-grey);
     color: white;
+    border-left-color: var(--golden);
 }
 .plugins tr {
     background-color: var(--grey);
@@ -353,4 +354,14 @@ p.max-upload-size {
 }
 div.plugin-description p {
     color: var(--white);
+}
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    background-color: var(--golden);
+    color: var(--dark-grey);
+}
+#adminmenu li.wp-has-current-submenu div.wp-menu-image::before {
+    color: var(--dark-grey);
+}
+#adminmenu li a:hover, #adminmenu li.opensub a:hover, #adminmenu .wp-submenu a:hover {
+    color: var(--golden);
 }
