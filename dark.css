@@ -362,6 +362,16 @@ div.plugin-description p {
 #adminmenu li.wp-has-current-submenu div.wp-menu-image::before {
     color: var(--dark-grey);
 }
-#adminmenu li a:hover, #adminmenu li.opensub a:hover, #adminmenu .wp-submenu a:hover {
+#adminmenu li a:hover, #adminmenu li.opensub a:hover, #adminmenu .wp-submenu a:hover, #adminmenu a.wp-has-submenu div.wp-menu-image {
     color: var(--golden);
+}
+#adminmenu div.wp-menu-image:hover {
+    color: var(--golden)
+}
+
+p, h1 {
+    color: var(--white)
+}
+div.health-check-header {
+    background-color: var(--black);
 }
