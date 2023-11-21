@@ -355,6 +355,7 @@ p.max-upload-size {
 div.plugin-description p {
     color: var(--white);
 }
+/* admin menu */
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
     background-color: var(--golden);
     color: var(--dark-grey);
@@ -362,11 +363,12 @@ div.plugin-description p {
 #adminmenu li.wp-has-current-submenu div.wp-menu-image::before {
     color: var(--dark-grey);
 }
-#adminmenu li a:hover, #adminmenu li.opensub a:hover, #adminmenu .wp-submenu a:hover, #adminmenu a.wp-has-submenu div.wp-menu-image {
+#adminmenu li a:hover {
     color: var(--golden);
 }
-#adminmenu div.wp-menu-image:hover {
-    color: var(--golden)
+/*dashicon color on hover. Does not work on items with a submenu*/
+#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before {
+    color: var(--golden);
 }
 
 p, h1 {
