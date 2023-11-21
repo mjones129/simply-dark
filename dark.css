@@ -178,7 +178,7 @@ p.max-upload-size {
     color: var(--white);
 }
 #title {
-    background-color: var(--grey);
+    background-color: var(--dark-grey);
     border-color: var(--golden);
 }
 #description-wrap > label {
