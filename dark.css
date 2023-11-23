@@ -363,6 +363,9 @@ div.plugin-description p {
 #adminmenu li.wp-has-current-submenu div.wp-menu-image::before {
     color: var(--dark-grey);
 }
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+    color: var(--golden);
+}
 #adminmenu li a:hover {
     color: var(--golden);
 }
