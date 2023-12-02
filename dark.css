@@ -437,3 +437,11 @@ div.health-check-header {
     color: var(--golden);
     border: 1px solid var(--golden);
 }
+.widefat td, .widefat th {
+    color: var(--white);
+}
+
+/*media*/
+.view-switch a.current:before {
+    color: var(--golden);
+}
