@@ -1,0 +1,34 @@
+/*media*/
+.view-switch a.current:before {
+    color: var(--golden);
+}
+.wp-filter {
+    background: var(--grey);
+    border: 1px solid var(--golden);
+}
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat {
+    border: 1px solid var(--golden);
+}
+
+/* media library */
+#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.attachments-wrapper > div > p {
+    color: var(--white);
+}
+#drag-drop-area > div > p.drag-drop-info {
+    color: var(--white);
+}
+p.upload-flash-bypass {
+    color: var(--white);
+}
+p.max-upload-size {
+    color: var(--white);
+}
+#drag-drop-area > div > p:nth-child(2) {
+    color: var(--white);
+}
+#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.media-toolbar.wp-filter {
+    background-color: var(--dark-grey);
+}
+#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.media-toolbar.wp-filter > div.media-toolbar-primary.search-form > label {
+    color: var(--white);
+}

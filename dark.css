@@ -1,3 +1,5 @@
+@import './css/media.css';
+
 :root {
     --golden:rgb(240, 189, 23);
     --black: #2f2f2f;
@@ -54,28 +56,7 @@ body.wp-admin {
 a {
     color: var(--golden);
 }
-/* media library */
-#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.attachments-wrapper > div > p {
-    color: var(--white);
-}
-#drag-drop-area > div > p.drag-drop-info {
-    color: var(--white);
-}
-p.upload-flash-bypass {
-    color: var(--white);
-}
-p.max-upload-size {
-    color: var(--white);
-}
-#drag-drop-area > div > p:nth-child(2) {
-    color: var(--white);
-}
-#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.media-toolbar.wp-filter {
-    background-color: var(--dark-grey);
-}
-#wp-media-grid > div.media-frame.wp-core-ui.mode-grid.mode-edit.hide-menu > div.media-frame-tab-panel > div.media-frame-content > div > div.media-toolbar.wp-filter > div.media-toolbar-primary.search-form > label {
-    color: var(--white);
-}
+
 /* categories */
 #col-left > div > div > h2 {
     color: var(--white);
@@ -441,7 +422,3 @@ div.health-check-header {
     color: var(--white);
 }
 
-/*media*/
-.view-switch a.current:before {
-    color: var(--golden);
-}
