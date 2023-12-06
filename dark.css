@@ -1,13 +1,9 @@
+@import './css/variables.css';
+@import './css/home.css';
 @import './css/media.css';
+@import './css/notifications.css';
 
-:root {
-    --golden:rgb(240, 189, 23);
-    --black: #2f2f2f;
-    --white: white;
-    --dark-grey: #222;
-    --grey: #525252;
-    --border-radius: 5px;
-}
+
 /* background color */
 body.wp-admin {
     background-color: var(--black);
