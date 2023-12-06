@@ -1,0 +1,8 @@
+.wp-core-ui .button-secondary:hover, .wp-core-ui .button.hover, .wp-core-ui .button:hover {
+    background-color: var(--golden);
+    border: 1px solid var(--black);
+}
+
+.wp-core-ui select:hover {
+    color: var(--white);
+}

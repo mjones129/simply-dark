@@ -1,5 +1,6 @@
 @import './css/variables.css';
 @import './css/home.css';
+@import './css/plugins.css';
 @import './css/media.css';
 @import './css/notifications.css';
 
@@ -418,3 +419,6 @@ div.health-check-header {
     color: var(--white);
 }
 
+a:active, a:hover {
+    color: var(--white);
+}
