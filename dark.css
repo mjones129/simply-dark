@@ -1,6 +1,8 @@
 @import './css/variables.css';
+@import './css/side-menu.css';
 @import './css/home.css';
 @import './css/plugins.css';
+@import './css/categories.css';
 @import './css/media.css';
 @import './css/notifications.css';
 
@@ -54,22 +56,7 @@ a {
     color: var(--golden);
 }
 
-/* categories */
-#col-left > div > div > h2 {
-    color: var(--white);
-}
-#addtag > div.form-field.form-required.term-name-wrap > label {
-    color: var(--white);
-}
-#addtag > div.form-field.term-slug-wrap > label {
-    color: var(--white);
-}
-#addtag > div.form-field.term-parent-wrap > label {
-    color: var(--white);
-}
-#addtag > div.form-field.term-description-wrap > label {
-    color: var(--white);
-}
+
 /* comments */
 #comments-form > table > thead > tr {
     background-color: var(--dark-grey);

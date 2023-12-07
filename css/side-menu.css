@@ -1,0 +1,6 @@
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top > a:focus {
+    color: var(--golden);
+}
+#collapse-button:hover {
+    color: var(--golden);
+}

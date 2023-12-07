@@ -2,3 +2,7 @@ div.notice {
     background-color: var(--black);
     border: 1px solid var(--golden);
 }
+#adminmenu .awaiting-mod, #adminmenu .menu-counter, #adminmenu .update-plugins {
+    background-color: var(--golden);
+    color: var(--black);
+}
