@@ -14,3 +14,6 @@
 #addtag > div.form-field.term-description-wrap > label {
     color: var(--white);
 }
+p#slug-description, p#name-description, p#parent-description, p#description-description, .form-wrap p, p.description {
+    color: var(--white);
+}

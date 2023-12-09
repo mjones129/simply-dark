@@ -6,6 +6,7 @@
 @import './css/categories.css';
 @import './css/media.css';
 @import './css/notifications.css';
+@import './css/tools.css';
 
 
 /* background color */
@@ -15,6 +16,9 @@ body.wp-admin {
 }
 /* dashboard heading */
 #wpbody-content > div.wrap > h1 {
+    color: var(--white);
+}
+h2 {
     color: var(--white);
 }
 /* link tags */
@@ -57,44 +61,6 @@ a {
     color: var(--golden);
 }
 
-
-/* comments */
-#comments-form > table > thead > tr {
-    background-color: var(--dark-grey);
-}
-#comment {
-    color: var(--white);
-}
-#the-comment-list tr {
-    background-color: var(--black);
-}
-#the-comment-list tr td p {
-    color: var(--white);
-}
-#comments-form > table > tfoot tr {
-    background-color: var(--dark-grey);
-}
-#comments-form > table > tfoot > tr > th.manage-column.column-comment.column-primary {
-    color: var(--white);
-}
-#wpbody-content > div.wrap > ul > li.mine > a > span {
-    color: var(--white);
-}
-#wpbody-content > div.wrap > ul > li.moderated > a > span {
-    color: var(--white);
-}
-#wpbody-content > div.wrap > ul > li.approved > a > span {
-    color: var(--white);
-}
-#wpbody-content > div.wrap > ul > li.spam > a > span {
-    color: var(--white);
-}
-#wpbody-content > div.wrap > ul > li.trash > a > span {
-    color: var(--white);
-}
-#comment-1 > td.author.column-author > strong {
-    color: var(--white);
-}
 /* appearance page */
 #wpbody-content > div.wrap > div.theme-browser.rendered > div > div.theme.add-new-theme > a > h2 {
     color: var(--white);
