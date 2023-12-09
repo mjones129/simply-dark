@@ -1,6 +1,7 @@
 @import './css/variables.css';
 @import './css/side-menu.css';
 @import './css/home.css';
+@import './css/updates.css';
 @import './css/plugins.css';
 @import './css/categories.css';
 @import './css/media.css';
@@ -233,56 +234,7 @@ a {
 #latest-comments > ul.subsubsub {
     border-top: 1px solid var(--golden)
 }
-/* wp events and news */
-#dashboard_primary {
-    background-color: var(--black);
-    border: 1px solid var(--golden);
-    border-radius: var(--border-radius);
-}
-#dashboard_primary > div.postbox-header {
-    background-color: var(--grey);
-    border-bottom: 1px solid var(--golden);
-    border-radius: var(--border-radius) var(--border-radius) 0px 0px;
-}
-#dashboard_primary > div.postbox-header > div > button.handle-order-higher > span.order-higher-indicator {
-    color: var(--golden);
-}
-#dashboard_primary > div.postbox-header > h2 {
-    color: var(--white);
-}
-#community-events-location-message {
-    color: var(--white);
-}
-#community-events > div > p > button > span.dashicons.dashicons-location {
-    color: var(--golden);
-}
-#community-events > div > p > button > span.community-events-location-edit {
-    color: var(--golden);
-}
-#community-events > div > form > label {
-    color: var(--white);
-}
-#community-events-submit {
-    background-color: var(--golden);
-    border: none;
-    color: var(--black);
-    border-radius: 3px;
-}
-#community-events > div > form > button {
-    color: var(--golden);
-}
-#community-events > div {
-    border-bottom: 1px solid var(--golden);
-}
-#community-events > ul {
-    border-bottom: 1px solid var(--golden);
-}
-#community-events-location {
-    background-color: var(--grey);
-}
-#dashboard_primary > div.inside > p {
-    border-top: 1px solid var(--golden);
-}
+
 /* wordpress updates */
 #wpbody-content > div.wrap > p {
     color: var(--white);

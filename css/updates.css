@@ -1,0 +1,18 @@
+#update-themes-table > thead > tr {
+    background-color: var(--black);
+}
+.widefat tfoot tr td, .widefat tfoot tr th, .widefat thead tr td, .widefat thead tr th {
+    color: var(--white);
+}
+#update-themes-table > tfoot > tr {
+    background-color: var(--black);
+}
+.widefat thead td, .widefat thead th {
+    border-bottom: 1px solid var(--golden);
+}
+.widefat tfoot td, .widefat tfoot th {
+    border-top: 1px solid var(--golden);
+}
+.widefat ol, .widefat p, .widefat ul {
+	color: var(--white);
+}
