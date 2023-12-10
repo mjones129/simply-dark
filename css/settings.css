@@ -1,0 +1,13 @@
+.form-table th, .form-wrap label {
+    color: var(--white);
+}
+.wp-core-ui .button.active {
+    background-color: var(--grey);
+    color: var(--golden);
+    border: 1px solid var(--white);
+}
+.wp-core-ui .button.active:hover {
+    background-color: var(--golden);
+    color: var(--black);
+    border: 1px solid var(--white);
+}
