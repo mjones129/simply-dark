@@ -7,7 +7,7 @@
 *
  */
 
- function wporg_options_page_html() {
+ function sd_options_page_html() {
 	// check user capabilities
 	if ( ! current_user_can( 'manage_options' ) ) {
 		return;
@@ -18,10 +18,10 @@
 		<form action="options.php" method="post">
 			<?php
 			// output security fields for the registered setting "wporg_options"
-			settings_fields( 'wporg_options' );
+			settings_fields( 'sd_options' );
 			// output setting sections and their fields
 			// (sections are registered for "wporg", each field is registered to a specific section)
-			do_settings_sections( 'wporg' );
+			do_settings_sections( 'simply-dark' );
 			// output save settings button
 			submit_button( __( 'Save Settings', 'textdomain' ) );
 			?>
@@ -29,7 +29,6 @@
 	</div>
 	<?php
 }
-
 
 
 function sd_init() {
@@ -51,18 +50,18 @@ function sd_activate() {
 register_activation_hook( __FILE__, 'sd_activate' );
 
 
-function wporg_options_page()
+function sd_options_page()
 {
 	add_submenu_page(
-		'tools.php',
-		'WPOrg Options',
-		'WPOrg Options',
+		'options-general.php',
+		'Simply Dark',
+		'Simply Dark',
 		'manage_options',
-		'wporg',
-		'wporg_options_page_html'
+		'simply-dark',
+		'sd_options_page_html'
 	);
 }
-add_action('admin_menu', 'wporg_options_page');
+add_action('admin_menu', 'sd_options_page');
 
  function sd_kill_the_lights() {
     wp_register_style('simply-dark', plugin_dir_url(__FILE__) . 'dark.css', array(), '1.0', 'all');
