@@ -328,3 +328,12 @@ div.health-check-header {
 a:active, a:hover {
     color: var(--white);
 }
+div.broken-themes h3 {
+    color: var(--white);
+}
+div.update-message p {
+    color: var(--black);
+}
+.notice-warning.notice-alt {
+    background-color: var(--golden);
+}
