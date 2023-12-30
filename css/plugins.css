@@ -6,3 +6,26 @@
 .wp-core-ui select:hover {
     color: var(--white);
 }
+.filter-links li > a:focus, .filter-links li > a:hover, .show-filters .filter-links a.current:focus, .show-filters .filter-links a.current:hover {
+  color: var(--golden);
+}
+
+#the-list .plugin-card {
+  background-color: var(--black);
+}
+
+#the-list .plugin-card .plugin-card-bottom {
+  background-color: var(--black);
+}
+
+div.plugins-popular-tags-wrapper p.popular-tags {
+  background-color: var(--black);
+}
+
+ul.filter-links li a {
+  color: var(--white);
+}
+
+ul.filter-links li a.current {
+  color: var(--golden);
+}
