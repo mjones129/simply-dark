@@ -1,0 +1,31 @@
+#templateside > ul {
+  background-color: var(--black);
+}
+
+#templateside ul li ul li.current-file a span.notice {
+  background-color: var(--dark-grey);
+}
+
+#templateside ul li ul li a.hover {
+  background-color: var(--grey);
+}
+
+[role="treeitem"] .folder-label.hover {
+  background-color: var(--grey);
+}
+
+div.CodeMirror-gutters {
+  background-color: var(--dark-grey);
+}
+
+span.cm-variable, span.cm-operator {
+  color: var(--white);
+}
+
+div.CodeMirror {
+  background: var(--grey);
+}
+
+pre.CodeMirror-line span[role="presentation"] * {
+  /* color: var(--white); */
+}

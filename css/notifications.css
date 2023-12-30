@@ -6,3 +6,7 @@ div.notice {
     background-color: var(--golden);
     color: var(--black);
 }
+
+div.notification-dialog {
+  background-color: var(--black);
+}
