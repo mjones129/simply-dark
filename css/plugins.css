@@ -25,7 +25,3 @@ div.plugins-popular-tags-wrapper p.popular-tags {
 ul.filter-links li a {
   color: var(--white);
 }
-
-ul.filter-links li a.current {
-  color: var(--golden);
-}
